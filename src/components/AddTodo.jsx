@@ -13,7 +13,7 @@ export const AddTodo = ({ todos, setTodos }) => {
     },[]);
 
     const handleAdd = (e) => {
-        //console.log("add");
+        console.log("add");
         //if (!descrTodo) return;
         if (!inputRef.current.value) return;
         //let newTodo = { id:v4(), descr:descrTodo, done:false };
