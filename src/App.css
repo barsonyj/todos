@@ -9,7 +9,7 @@
 
 .header {
   height: 30vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("pipacs.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("./assets/pipacs.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
