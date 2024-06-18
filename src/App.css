@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 30vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("pipacs.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addtodo {
+  margin-top: -10px;
+}
+
+.addtodo form {
+  display: flex;
+  justify-content: center;
+}
+
+.addtodo input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 80vw; max-width: 600px;
+}
+
+.addtodo input:focus {
+  outline: none;
+}
+
+.addtodo .gomb {
+  display: inline-block;
+  padding: 5px;
+}
+
+.fa-x {
+  margin-left: -20px;
+  padding-top: 13px;
+}
+
+.fa-square-plus {
+  margin-left: 8px;
+  color: green;
+}
+
+.fa-trash-can {
+  color: red;
+}
+
+.listtodo {
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10px;
+  gap: 5xp;
+}
+
+.item {
+  display: flex;
+  box-shadow: 0 0 5px gray;
+  width: 100%;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.done {
+  color: green;
+}
+
+.itemdone {
+  text-decoration: line-through;
+}
+
+h2 {
+  text-align: center;
+}
