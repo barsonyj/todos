@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://barsonyj.github.io/todos/",
+  "homepage":"https://barsonyj/github.io/todos/",
   "scripts": {
     "dev": "vite",
     "predeploy":"pnpm run build",
